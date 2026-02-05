@@ -136,7 +136,6 @@ export const PageTwo: React.FC = () => {
                 </div>
               </div>
             </div>
-
             <div className="mt-8 text-[#9a6b3d]/40 text-[10px] font-black tracking-widest uppercase">
               © 2026 YUSHI MEDICAL EDUCATION
             </div>
