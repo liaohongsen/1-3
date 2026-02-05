@@ -122,7 +122,6 @@ export const PageTwo: React.FC = () => {
                   <p className="text-[#7d5027] text-[12px] font-black">+44 07419735373 (英国)</p>
                 </div>
               </div>
-              
               <div className="border-l border-[#f39200]/20 pl-5 shrink-0 text-center">
                 <h4 className="text-[#f39200] text-[12px] font-black mb-1.5">官方微信</h4>
                 <div className="bg-white p-1 rounded-xl shadow-sm border border-gray-50">
@@ -136,7 +135,7 @@ export const PageTwo: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="mt-8 text-[#9a6b3d]/40 text-[10px] font-black tracking-widest uppercase">
               © 2026 YUSHI MEDICAL EDUCATION
             </div>
