@@ -127,7 +127,7 @@ export const PageTwo: React.FC = () => {
                 <div className="bg-white p-1 rounded-xl shadow-sm border border-gray-50">
                   <div className="w-12 h-12 bg-gray-100 flex items-center justify-center rounded-lg">
                     <img 
-                     src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=WeChatReservation" 
+                     src="./images/wechat.jpg" 
                      alt="WeChat QR" 
                      className="w-full h-full object-contain"
                    />
