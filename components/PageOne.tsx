@@ -25,7 +25,7 @@ export const PageOne: React.FC = () => {
           <div className="bg-white p-4 rounded-[20px] border border-orange-100 shadow-[0_4px_20px_rgba(243,146,0,0.04)] relative overflow-hidden">
             <div className="grid grid-cols-1 gap-3 relative z-10">
               {[
-                { label: '医学 / 心理学对口导师', desc: '行业壁垒级师资，专业背景深度匹配' },
+                { label: '医学 / 心理学对口导师', desc: '行业顶尖师资，专业背景深度匹配' },
                 { label: '结果导向 · 高分赋能', desc: '深挖得分底层逻辑，非单纯作业指导' },
                 { label: '学业 + 职业全周期支持', desc: '课业、申请与职场闭环体系构建' }
               ].map((item, i) => (
