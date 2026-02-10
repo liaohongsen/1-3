@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Footer } from './Footer';
 
 export const PageTwo: React.FC = () => {
   return (
@@ -104,44 +105,11 @@ export const PageTwo: React.FC = () => {
           </div>
         </section>
 
-        {/* Compact Brand Contact Footer */}
-        <section className="bg-[#fef1e1] p-5 pb-6 rounded-[28px] text-center shadow-sm border border-orange-50 relative overflow-hidden mt-6">
-          <div className="relative z-10">
-            <h2 className="text-[#f39200] text-[22px] font-black mb-0.5">YUSHI (博睿医智)</h2>
-            <p className="text-[#9a6b3d] text-[11px] font-bold leading-tight mb-5">
-              以医学与心理学为核心，提供全程支持
-            </p>
-
-            <div className="h-px w-full bg-[#f39200]/10 mb-5"></div>
-
-            <div className="flex justify-between items-center text-left gap-4">
-              <div className="flex-1">
-                <h4 className="text-[#f39200] text-[13px] font-black mb-2 uppercase tracking-tight">联系我们</h4>
-                <div className="space-y-1">
-                  <p className="text-[#7d5027] text-[12px] font-black">+86 13162611127 (中国)</p>
-                  <p className="text-[#7d5027] text-[12px] font-black">+44 07419735373 (英国)</p>
-                </div>
-              </div>
-              <div className="border-l border-[#f39200]/20 pl-5 shrink-0 text-center">
-                <h4 className="text-[#f39200] text-[12px] font-black mb-1.5">官方微信</h4>
-                <div className="bg-white p-1 rounded-xl shadow-sm border border-gray-50">
-                  <div className="w-12 h-12 bg-gray-100 flex items-center justify-center rounded-lg">
-                    <img 
-                     src="./images/wechat.jpg" 
-                     alt="WeChat QR" 
-                     className="w-full h-full object-contain"
-                   />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-8 text-[#9a6b3d]/40 text-[10px] font-black tracking-widest uppercase">
-              © 2026 YUSHI MEDICAL EDUCATION
-            </div>
-          </div>
-        </section>
+        {/* Footer */}
+        <Footer />
       </div>
     </div>
   );
 };
+
+
